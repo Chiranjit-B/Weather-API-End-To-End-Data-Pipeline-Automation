@@ -1,0 +1,50 @@
+SET UP REQUIRENMENT 
+
+create user group instead of  root user >> to manage/create user privileges like : read only and read/write privilege
+
+
+IAM >> User groups >> create group >> user group name >>  endtoendyoutube-ym-user-group >> attach permission policies > administrativeAccesss (check that)  >> create group (group has been created) end
+
+users >> create user >>  endtoendyoutube-ym-user1 >> check box ( provide user access .......) >>  check "i want to create an IAM user" >>  console password >> check "custom password" >> enter password . >> next>>
+password : Debangshi!1906
+
+SET PERMISSIONS 
+
+permission options >> add user to group >> select the group >>  "set permission boundary" >> next >> CREATE USER >> user has been created  >> return to user list
+
+click on the user >> security credentials >> access keys (varies from user to user) >> CLI >> select check box >> Next >> give a tag value "" (not given in video) >> (access key created) >> "copy paste the values " (dont close before copying) >> download just in case . u can see accesskeyID and secret access key .
+
+
+endtoendyoutube-ym-user-group 
+
+_________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+sudo apt update
+sudo apt install python3-pip
+Y
+sudo apt install python3.12-venv
+Y
+python3 -m venv airflow_venv
+source airflow_venv/bin/activate
+pip install pandas
+pip install s3fs
+pip install apache-airflow
+airflow standalone
+username: admin  password: Rrn49rEWtUvmptnA
+create bucket : weatherapis3bucket-yml
+go to EC2 >> select the instance >> actions >> security >> modify IAM Role >> create role >> EC2 >> NEXT >> AmazonEC2full access, AmazonS3FullAccess >> Next >> Role Name >> airflow-etl-weathermap-yml >> create role
+
+
+api key   : "   "
+api key secret : "   "
+bearer token : "   "
+
+
+
