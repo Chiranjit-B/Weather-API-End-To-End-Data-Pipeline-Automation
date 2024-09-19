@@ -4,6 +4,9 @@
 
 ### Project Overview 🚀
 
+![image](https://github.com/user-attachments/assets/ab3bda7a-dd03-406d-91f6-4165ce56b3d5)
+
+
 This project demonstrates a fully automated **ETL pipeline** that extracts weather data from the **OpenWeatherMap API**, processes it using **Python**, and stores the transformed data as **CSV** files in **Amazon S3**. The entire orchestration is managed using **Apache Airflow**, deployed on an **AWS EC2** instance, and the pipeline is scheduled to run daily.
 
 This project is particularly useful for learning about:
@@ -38,13 +41,6 @@ This project is particularly useful for learning about:
 4. **Automation & Orchestration**:
    - **Apache Airflow** is used to manage and automate the entire workflow. The pipeline is scheduled to run daily, meaning the weather data is updated every day.
    - Features of Airflow include task scheduling, retries on failures, and email notifications for errors or retries.
-
----
-
-### Architecture 📋
-
-![image](https://github.com/user-attachments/assets/9c47cf1f-6ded-467d-a059-2738c87fbd27)
-
 
 ---
 
@@ -131,6 +127,11 @@ The transformed data is saved as a CSV in the S3 bucket. Below is a sample of ho
 - **OpenWeatherMap API**: The data source for the weather information 🌍.
 
 ---
+
+
+
+![Weather Data ETL Pipeline](https://raw.githubusercontent.com/Chiranjit-B/Weather-API-End-To-End-Data-Pipeline-Automation/refs/heads/main/DALL%C2%B7E%202024-09-19%2013.03.13%20-%20A%20visually%20appealing%20banner%20for%20a%20GitHub%20README%20file%20showcasing%20an%20ETL%20pipeline%20project%20using%20Apache%20Airflow%2C%20AWS%20EC2%2C%20S3%2C%20and%20Python.%20The%20banner%20shou.webp)
+
 
 ### Project License 📜
 
